@@ -1,7 +1,5 @@
-
-
-
 /* -----------------------------------------------------
+
    1. Validate driver/receiver name
    Must start with capital letter
    No digits allowed
