@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Revenue Reports</title>
+    <link rel="stylesheet" href="CSS/reports.css">  
+</head>
+<body>
+    <nav>
+        <div class="nav-brand">
+            <h2>ParkEase</h2>
+        </div>
+        <div class="nav-links">
+            <a href="reports.html">Reports</a>
+            <a href="attendantdashboard.html">Attendant</a>
+            <a href="register.html">Register</a>
+            <a href="battery.html">Battery</a>
+            <a href="tyre-hire.html">Tyre-hire</a>
+            <a href="signout.html">Signout</a>
+            <a href="login.html">Logout</a>
+        </div>
+    </nav>
+    <div class="dashboard">
+
+<!-- SIDEBAR -->
+
+<div class="sidebar">
+
+<div class="logo">
+<div class="logo-box">P</div>
+<span>ParkEase</span>
+</div>
+
+<nav>
+          <ul class="menu">
+            <li><a href="reports.html">Reports</a></li>
+            <li class="active">
+              <a href="attendantdashboard.html">Attendant</a>
+            </li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="battery.html">Battery</a></li>
+            <li><a href="tyre-hire.html">Tyre-hire</a></li>
+            <li><a href="signout.html">Signout</a></li>
+            <li><a href="login.html">Logout</a></li>
+          </ul>
+        </nav>
+
+<div class="profile">
+<div class="avatar"></div>
+<p>Parvin Rulz</p>
+<span>Attendant 04</span>
+</div>
+
+</div>
+
+
+<!-- MAIN CONTENT -->
+
+<div class="main">
+
+<!-- TOP BAR -->
+
+<div class="topbar">
+
+<h2>Dashboard</h2>
+
+<input type="text" placeholder="Search vehicle..." class="search">
+
+<div class="admin">
+<p>Admin User</p>
+<span>Super Admin</span>
+</div>
+
+</div>
+
+
+<!-- STATS -->
+
+<div class="stats">
+
+<div class="card">
+<p>Total Vehicles Parked</p>
+<h3>142</h3>
+<span class="green">+12% from yesterday</span>
+</div>
+
+<div class="card">
+<p>Today's Total Revenue</p>
+<h3>UGX 450,000</h3>
+<span class="green">+8% from avg day</span>
+</div>
+
+<div class="card">
+<p>Available Slots</p>
+<h3>28/150</h3>
+<div class="progress">
+<div class="bar"></div>
+</div>
+<span>122 slots currently filled</span>
+</div>
+
+</div>
+
+
+<!-- QUICK ACTIONS -->
+
+<h3 class="section-title">Quick Actions</h3>
+
+<div class="actions">
+
+<button class="arrival">Register Arrival</button>
+
+<button class="signout">Vehicle Sign-out</button>
+
+<button class="print">Print Daily Summary</button>
+
+</div>
+
+
+<!-- TABLE -->
+
+<h3 class="section-title">Recent Arrivals</h3>
+<div class="table-header">
+                <a href="#">View All</a>
+            </div>
+
+<table>
+
+<thead>
+<tr>
+<th>TIME</th>
+<th>PLATE NUMBER</th>
+<th>VEHICLE TYPE</th>
+<th>STATUS</th>
+<th>ACTIONS</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>10:45 AM</td>
+<td>UBL 234X</td>
+<td>SUV / Toyota Land Cruiser</td>
+<td class="parked">PARKED</td>
+<td>...</td>
+</tr>
+
+<tr>
+<td>10:30 AM</td>
+<td>UAS 981A</td>
+<td>Sedan / Toyota Corolla</td>
+<td class="parked">PARKED</td>
+<td>...</td>
+</tr>
+
+<tr>
+<td>10:12 AM</td>
+<td>UBF 112L</td>
+<td>Motorcycle / Bajaj Boxer</td>
+<td class="exited">EXITED</td>
+<td>...</td>
+</tr>
+
+<tr>
+<td>09:55 AM</td>
+<td>UBK 001Z</td>
+<td>Van / Mercedes Sprinter</td>
+<td class="parked">PARKED</td>
+<td>...</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+</body>
+</html>

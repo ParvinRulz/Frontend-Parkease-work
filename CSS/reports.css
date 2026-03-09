@@ -1,0 +1,217 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f5f6f8;
+}
+
+.dashboard{
+display:flex;
+height:100vh;
+}
+
+/* SideBar */
+
+.sidebar{
+width:230px;
+background:#f4c400;
+padding:30px 20px;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+font-weight:600;
+font-size:18px;
+}
+
+.logo-box{
+background:#000;
+color:#fff;
+padding:6px 10px;
+border-radius:4px;
+}
+
+.menu{
+list-style:none;
+margin-top:40px;
+}
+
+.menu li{
+margin:20px 0;
+font-weight:500;
+cursor:pointer;
+}
+
+.menu .active{
+font-weight:bold;
+}
+
+.profile{
+margin-top:auto;
+}
+
+.avatar{
+width:35px;
+height:35px;
+background:#ccc;
+border-radius:50%;
+margin-bottom:5px;
+}
+
+/* Main */
+
+.main{
+flex:1;
+padding:30px;
+}
+
+/* TopBar */
+
+.topbar{
+display:flex;
+align-items:center;
+justify-content:space-between;
+margin-bottom:30px;
+}
+
+.search{
+padding:8px 12px;
+border:1px solid #ddd;
+border-radius:6px;
+width:220px;
+}
+
+.admin{
+text-align:right;
+font-size:13px;
+}
+
+.admin span{
+color:#777;
+}
+
+/* Stats */
+
+.stats{
+display:flex;
+gap:20px;
+margin-bottom:30px;
+}
+
+.card{
+background:#fff;
+padding:20px;
+border-radius:8px;
+flex:1;
+box-shadow:0 2px 6px rgba(0,0,0,0.05);
+}
+
+.card p{
+font-size:13px;
+color:#777;
+}
+
+.card h3{
+margin:10px 0;
+}
+
+.green{
+color:green;
+font-size:12px;
+}
+
+.progress{
+height:6px;
+background:#eee;
+border-radius:5px;
+margin:8px 0;
+}
+
+.bar{
+height:6px;
+width:80%;
+background:#f4c400;
+border-radius:5px;
+}
+
+/* Action */
+
+.section-title{
+margin:25px 0 10px 0;
+}
+
+.actions{
+display:flex;
+gap:15px;
+margin-bottom:25px;
+}
+
+.actions button{
+padding:12px 20px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+.arrival{
+background:#f4c400;
+}
+
+.signout{
+background:#2c2f3a;
+color:white;
+}
+
+.print{
+background:transparent;
+border:1px solid #ccc;
+}
+
+/* Table */
+
+table{
+width:100%;
+border-collapse:collapse;
+background:#fff;
+border-radius:8px;
+overflow:hidden;
+box-shadow:0 2px 6px rgba(0,0,0,0.05);
+}
+
+.table-header{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:15px;
+    text-align:right;
+}
+
+th,td{
+padding:14px;
+text-align:left;
+font-size:14px;
+border-bottom:1px solid #eee;
+}
+
+th{
+font-size:12px;
+color:#777;
+}
+
+.parked{
+color:green;
+font-weight:bold;
+}
+
+.exited{
+color:#ff7a00;
+font-weight:bold;
+}
