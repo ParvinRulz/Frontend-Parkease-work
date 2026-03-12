@@ -7,29 +7,58 @@
     <link rel="stylesheet" href="CSS/signout.css">
 </head>
 <body>
-    <header class="topbar">
-        <nav>
-        <div class="nav-brand">
-            <h2>ParkEase</h2>
-        </div>
-        <div class="nav-links">
-            <a href="reports.html">Reports</a>
-            <a href="attendantdashboard.html">Attendant</a>
-            <a href="register.html">Register</a>
-            <a href="battery.html">Battery</a>
-            <a href="tyre-hire.html">Tyre-hire</a>
-            <a href="signout.html">Signout</a>
-            <a href="login.html">Logout</a>
-        </div>
-        </nav>
+    <!-- =========================
+     SIDE NAVIGATION BAR
+     Contains links to all system pages
+========================= -->
 
-<div class="logo">
-<span class="logo-box">P</span>
-<span class="logo-text">ParkEase</span>
-</div>
+<nav class="top-navbar">
+
+    <!-- System title/logo -->
+    <div class="nav-logo">
+        <h2>ParkEase</h2>
+    </div>
+
+    <!-- Navigation links -->
+    <ul class="nav-links">
+        <!-- Admin Revenue Reports page -->
+        <li>
+            <a href="reports.html">Reports</a>
+        </li>
+
+
+        <!-- Register vehicles page -->
+        <li>
+            <a href="register.html">Register</a>
+        </li>
+
+        <!-- Parking attendants page -->
+        <li>
+            <a href="attendants.html">Attendants</a>
+        </li>
+
+        <!-- Vehicle sign out page -->
+        <li>
+            <a href="signout.html">Sign Out</a>
+        </li>
+
+        <!-- Battery hire services -->
+        <li>
+            <a href="battery.html">Battery</a>
+        </li>
+
+        <!-- Tyre services page -->
+        <li>
+            <a href="tyre.html">Tyre</a>
+        </li>
+
+    </ul>
+
+</nav>
+<br>
+
 
 <input type="text" class="search" placeholder="Search Receipt by ID or Plate Number">
-
 <div class="user">
 <span>Parvin Rulz</span>
 <span class="role">ATTENDANT</span>
@@ -146,7 +175,9 @@ Cancel
 
 <div class="receipt">
 
-<div class="receipt-logo">P</div>
+<div class="receipt-logo">
+    <img src="Assests/logo-P.png" alt="parkease-logo" width="100">
+</div>
 
 <h3>PARKEASE</h3>
 

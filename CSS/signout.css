@@ -233,3 +233,46 @@ margin-top:20px;
 .qr img{
 width:80px;
 }
+
+/* =========================
+   TOP NAVIGATION BAR
+========================= */
+
+.top-navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#1f2937;
+    padding:12px 30px;
+}
+
+/* Logo / system name */
+
+.nav-logo{
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* Navigation links container */
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:25px;
+    margin:0;
+}
+
+/* Individual links */
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-size:14px;
+}
+
+/* Hover effect */
+
+.nav-links a:hover{
+    color:#ffd400;
+}
